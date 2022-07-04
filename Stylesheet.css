@@ -1,28 +1,30 @@
+body {
+    font-family: Arial;
+}
 
+a {
+    color: white;
+    text-decoration: none;
+}
 
 .nav {
 
     font-family: Arial;
     font-size: 150%;
-    background-color: white;
-    z-index: 999999;
+    background-color: black;
     margin: 0%;
     position: fixed;
-
-
 }
 
 .nav a {
     color: gray;
     padding: 15px 15px;
     text-decoration: white;
-    z-index: 99999;
 }
 
 .nav a.active {
     background-color: black;
     color: white;
-    z-index: 9999;
 }
 
 .container {
@@ -37,26 +39,32 @@
 }
 
 .column-boarder {
-  padding: 10%;
-    padding-top: 50%;
-    padding-bottom: 50%;
-
-
-    z-index: 99999;
+padding: 7%;
+    margin-bottom: 35%;
 }
 
 .container {
     display: flex;
     padding: 10%;
-    margin: -10%;
 }
+
+.containerH {
+    display: flex;
+
+}
+
+.Winona {
+    height: 10%;
+
+}
+
 
 .col {
  float: right
 }
 
 .row {
-
+;
 }
 
 
@@ -84,11 +92,20 @@
 
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
+.Hobbies {
+    display: flex;
+    left: 20%;
+    top: 2%%;
+}
+
+.Kontakt {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-image:url("images/jana.jpg");
+   background-size: cover;
+    color: white;
 }
 
 
@@ -96,6 +113,8 @@ footer {
     color: white;
     background-color: black;
     padding: 5%;
-}
+    text-align: center;
 
+
+}
 
