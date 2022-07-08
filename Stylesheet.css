@@ -1,28 +1,24 @@
+body {
+    font-family: Arial;
+}
 
+a {
+    color: white;
+    text-decoration: none;
+}
 
 .nav {
 
     font-family: Arial;
     font-size: 150%;
-    background-color: white;
-    z-index: 999999;
     margin: 0%;
     position: fixed;
-
-
 }
 
 .nav a {
-    color: gray;
+    color: white;
     padding: 15px 15px;
     text-decoration: white;
-    z-index: 99999;
-}
-
-.nav a.active {
-    background-color: black;
-    color: white;
-    z-index: 9999;
 }
 
 .container {
@@ -31,32 +27,50 @@
     z-index: 1;
 }
 
+.navbar navbar-expand-lg navbar-light bg-dark {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
 
 * {
     box-sizing: border-box;
 }
 
 .column-boarder {
-  padding: 10%;
-    padding-top: 50%;
-    padding-bottom: 50%;
-
-
+    padding: 7%;
+    padding-bottom: 20%;
     z-index: 99999;
+}
+
+.container-Quali {
+    padding-bottom: 100%;
 }
 
 .container {
     display: flex;
     padding: 10%;
-    margin: -10%;
 }
+
+.containerH {
+    display: flex;
+
+}
+
+.Winona {
+    height: 10%;
+
+}
+
 
 .col {
  float: right
 }
 
 .row {
-
+;
 }
 
 
@@ -84,18 +98,34 @@
 
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
+.Hobbies {
+    display: flex;
+    left: 20%;
+    top: 2%;
 }
 
+.Kontakt {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-image:url("images/lake.jpg");
+   background-size: cover;
+    color: white;
+}
+
+a:link {
+    color: #9B9DA0;
+    text-decoration: none;
+}
 
 footer {
-    color: white;
-    background-color: black;
+    color: #9B9DA0;
+    background-color:#363A40;
     padding: 5%;
+    text-align: center;
+    z-index: 2;
 }
+
 
 
